@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+      --semiBlack: #222222;
+      --darkGrey: #383838;
+      --grey:#E2E2E2;
+      --softGrey:#F5F5F5;
+      --white: #fff;
+      --red: #E6252F;
+      --orange: #FF3D00;
+      --green: #35DD46;
+      --font1: #232631;
+      --font2: #7B7B7B;
+}
+
+body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(123.75deg, #E11E1E 0.12%, #FC436F 84.7%);
+}
+
+.container-fluid {
+      padding: 16px 80px;
+}
+
+.jarakAtasBawah {
+      margin-top: 88px;
+      margin-bottom: 88px;
+}
+
+.jarakBawah {
+      margin-bottom: 88px;
+}
+
+.jarakAtas {
+      margin-top: 88px;
+}
+
+
+
+/* ------------- Navbar ------------- */
+
+.navbar {
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      background-color: var(--semiBlack);
+}
+
+.nav-item {
+      font-family: 'Poppins', sans-serif;
+      margin: 0px 16px;
+      color: var(--white);
+}
+
+li{
+      font-family: 'Poppins', sans-serif;
+      margin: 0px 16px;
+      color: var(--white);
+}
+
+.dropdown-menu {
+      padding: 16px;
+      border: none;
+      border-radius: 24px;
+      box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-menu :hover {
+      background-color: #D1DAFF;
+}
+
+.btnn {
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      width: 120px;
+      height: 56px;
+      margin-left: 16px;
+      border-radius: 100px;
+      background-color: var(--grey);
+      color: var(--semiBlack);
+}
+
+
+/* ------------- Navbar ------------- */
+
+
+/* ------------- Hero ------------- */
+
+.linkBut{
+      margin-right: 16px;
+}
+
+.vidioImage{
+      height: 60px;
+}
+
+.section1 .row .gambarLing img{
+      width: 95%;
+}
+
+.konten{
+      padding: 48px 16px;
+}
+
+.btn10 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      width: 160px;
+      height: 60px;
+      border-radius: 100px;
+      background-color: var(--white);
+      color: var(--red);
+      border: none;
+
+}
+
+.title0 {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 130px;
+      line-height: 140px;
+      margin-bottom: 20px;
+      color: var(--white);
+}
+
+.paragraf3{
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 42px;
+
+      color: #FFFFFF;
+}
+
+/* ------------- hero ------------- */
+
+
+/*--------------Section 2-----------*/
+.section2{
+      background-color: var(--white);
+      padding: 48px 48px;
+      border-radius: 48px;
+      /* text-align: center; */
+}
+
+.card {
+      border-radius: 24px;
+      border: none;
+}
+
+.card-img-top{
+      border-radius: 24px;
+}
+
+.card-title{
+      color: var(--semiBlack);
+      font-family: 'Poppins', sans-serif;
+      font-style: bold;
+      font-weight: 700;
+      font-size: 20px;
+}
+
+.harga{
+      color: var(--red);
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+}
+
+.card-body{
+      font-family: 'Poppins', sans-serif;
+      margin-top: 16px;
+      background-color: var(--softGrey);
+      border-radius: 24px;
+}
+
+.title2 {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 64px;
+      margin-bottom: 32px;
+      color: var(--darkBlue);
+      text-align: center;
+}
+
+.logoLogin{
+      font-size: 20px;
+      color: var(--white);
+      padding: 8px;
+      background-color: var(--red);
+      border-radius: 100%;
+      margin: 4px;
+}
+
+.profil{
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px; 
+      color: var(--white);
+      margin: 4px;
+      font-style: normal;
+}
+
+.profil:hover{
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px; 
+      color: var(--white);
+      margin: 4px;
+      font-style: normal;
+      text-decoration: none;
+}
+
+
+
+/* ------------- Footer ------------- */
+
+footer{
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--semiBlack);
+      color: var(--white);
+}
+
+.link{
+      padding-top: 32px;
+}
+
+.sosmed{
+      background-color: #000;
+}
+
+.iconCss {
+      height: 16px;
+      padding: 10px;
+      color: var(--white);
+      background-color: var(--darkBlue);
+      border-radius: 100%;
+      margin-left: 6px;
+      margin-right: 6px;
+      margin-top: 12px;
+      margin-bottom: 16px;
+}
+
+.gambarFoot{
+      margin-bottom: 20px;
+}
+
+.headingFoot{
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: 600;
+}
+
+.contentFoot{
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 200;
+      color: var(--white);
+}
+
+/* ------------- Footer ------------- */
